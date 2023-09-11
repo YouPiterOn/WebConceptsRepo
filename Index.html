@@ -1,11 +1,56 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Home</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="Script.js"></script>
 </head>
+
 <body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <div class = "sidebar" id="sidebar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main" id="main">
+        <h1>Home</h1>
+
+        <form>
+            <label>Enter question</label><br />
+            <input type="text" id="question" name="question" /><br />
+            <label>Enter your name</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label>The best page?</label><br />
+            <input type="radio" name="bestpage" />
+            <label>Home</label><br />
+            <input type="radio" name="bestpage" />
+            <label>Contact</label><br />
+            <input type="radio" name="bestpage" />
+            <label>About</label><br />
+            <label>Do you agree?</label>
+            <input type="checkbox" /><br />
+            <input type="submit" value="Submit"><br />
+        </form>
+        <table id="outputTable">
+            <tr>
+                <th>Name</th>
+                <th>Question</th>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
 
 </body>
+
 </html>

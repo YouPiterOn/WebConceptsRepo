@@ -1,3 +1,37 @@
-﻿body
-{
+﻿#sidebar a {
+    color: white
 }
+
+.sidebar {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    background-color: darkblue;
+    color: White;
+}
+
+.main {
+    margin-left: 120px;
+    background-color: white;
+    color: darkblue;
+}
+
+header {
+    margin-top: -30px;
+    margin-left: -25px;
+    padding: 40px;
+    height: 80px;
+    text-align:center;
+    background-color: darkblue;
+    color: White;
+}
+
+footer {
+    height: 120px;
+    text-align: center;
+    background-color: white;
+    color: darkblue;
+}
+
